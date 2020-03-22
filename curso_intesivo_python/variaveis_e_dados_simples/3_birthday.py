@@ -4,6 +4,8 @@ message = "Happy " + str(age) + "rd Birthday!" #str convert o int em string.. e 
 
 print(message)
 
+import this
+
 
 
 
