@@ -5,6 +5,7 @@ alien_0 = {'color':'green', 'points':5} # par chave-valor {'chave':'valor'}
 #new_points = alien_0['points']
 #print("You just earned " + str(new_points) + " pints!")
 
+"""
 print(alien_0)
 alien_0['x_position'] = 0
 alien_0['y_position'] = 25
@@ -27,3 +28,7 @@ else:
 
 alien_0['x_position'] = alien_0['x_position'] + x_increment
 print("New x-position: " + str(alien_0['x_position']))
+"""
+
+del alien_0['points']
+print(alien_0)
