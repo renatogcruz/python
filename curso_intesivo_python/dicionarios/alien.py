@@ -1,5 +1,6 @@
 alien_0 = {'color':'green', 'points':5} # par chave-valor {'chave':'valor'}
-
+alien_1 = {'color':'yellow', 'points':10}
+alien_2 = {'color':'blue', 'points':15}
 #print(alien_0['color'])
 #print(alien_0['points'])
 #new_points = alien_0['points']
@@ -30,5 +31,9 @@ alien_0['x_position'] = alien_0['x_position'] + x_increment
 print("New x-position: " + str(alien_0['x_position']))
 """
 
-del alien_0['points']
-print(alien_0)
+#del alien_0['points']
+#print(alien_0)
+
+aliens = [alien_0, alien_1, alien_2]
+for alien in aliens:
+	print(alien)
