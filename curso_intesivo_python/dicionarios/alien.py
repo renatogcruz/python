@@ -34,6 +34,17 @@ print("New x-position: " + str(alien_0['x_position']))
 #del alien_0['points']
 #print(alien_0)
 
-aliens = [alien_0, alien_1, alien_2]
+"""
+aliens = [alien_0, alien_1, alien_2] #reunimos esses dicionários em uma lista chamada aliens
 for alien in aliens:
 	print(alien)
+"""
+aliens = []
+
+for alien_number in range(30):
+	new_alien = {'color': 'green', 'point': 5, 'speed': 'slow'}
+	aliens.append(new_alien)
+
+for alien in aliens[:5]:
+	print(alien)
+	print("...")
