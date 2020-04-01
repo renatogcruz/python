@@ -1,7 +1,13 @@
-def get_formatted_name(first_name, last_name):
+def get_formatted_name(first_name, middle_name, last_name):
 	"""Devolve um nome completo formado de modo elegante"""
-	full_name = first_name + " " + last_name
+	if middle_name:
+		full_name = first_name + ' ' + middle_name + ' ' + last_name
+	else:
+		full_name =	first_name + ' ' + last_name
 	return full_name.title()
 
-musician = get_formatted_name('jimi', 'hendrix')
+musician = get_formatted_name('john', 'lee')
 print(musician)
+
+musician = get_formatted_name('john', 'lee', 'hooker')
+print(musican)
