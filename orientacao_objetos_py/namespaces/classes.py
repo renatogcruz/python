@@ -1,0 +1,1 @@
+#nome_objeto.nome_metodo(self, parametros) #keyword self
