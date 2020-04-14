@@ -12,6 +12,9 @@ class Carro():
 		self.is_ligado = False
 		self.velocidade = 0
 
+	def __del__(self):
+		print("O objeto foi removido da memória.")
+
 	def abastecer(self, qtd_combustivel):
 		"""O método abastecer recebe como parametros a quantidade de combustível e incrementa a nova quantidade de combustível"""
 		print(f"O carro possui {self.qtd_combustivel} litros de combustível")
