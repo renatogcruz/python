@@ -2,15 +2,15 @@
 
 class Carro():
 	"""Essa é a classe carro. Esta classe é utilizada para instanciar novos carros"""
-	def __init__(self, cor, portas, combustivel, potencia, qtd_combustivel, is_ligado, velocidade): #método init inicializa a classe
+	def __init__(self, cor, portas, combustivel, potencia): #método init inicializa a classe
 		#definido os atributos do carro
 		self.cor = cor
 		self.portas = portas
 		self.combustivel = combustivel
 		self.potencia = potencia
-		self.qtd_combustivel = qtd_combustivel
-		self.is_ligado = is_ligado
-		self.velocidade = velocidade
+		self.qtd_combustivel = 0
+		self.is_ligado = False
+		self.velocidade = 0
 
 	def abastecer(self, qtd_combustivel):
 		"""O método abastecer recebe como parametros a quantidade de combustível e incrementa a nova quantidade de combustível"""
