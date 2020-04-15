@@ -1,3 +1,4 @@
+#herança multipla não vai ser utilizada
 import carro, moto
 
 uno_vermelho = carro.Carro('vermelho','Flex', 1.0, 4)
