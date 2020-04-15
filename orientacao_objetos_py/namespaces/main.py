@@ -10,4 +10,6 @@ del uno_vermelho
 
 moto_vermelha = moto.Moto("vermelha", "gasolina", 1.0, 2)
 moto_vermelha.ligar()
-moto_vermelha.abastecer(20)
+moto_vermelha.abastecer(30)
+moto_vermelha.abastecer(10)
+print(moto_vermelha.is_ligado)
