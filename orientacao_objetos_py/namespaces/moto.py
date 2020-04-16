@@ -8,7 +8,7 @@ class Moto(veiculo.Veiculo):
 
 	def abastecer(self, qtd_combustivel): #ex. de polimorfismo (subescrever)
 		print("O método foi chamado a partir da classe moto (Polimorfismo)")
-		if self.__qtd_combustivel >= 30:
+		if self._qtd_combustivel >= 30:
 			print("A moto está com o tanque cheio")
 		else:
-			self.__qtd_combustivel += qtd_combustivel
+			self._qtd_combustivel += qtd_combustivel

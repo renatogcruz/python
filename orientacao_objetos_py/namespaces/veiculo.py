@@ -7,7 +7,7 @@ class Veiculo():
 		self.__cor = cor # '__.algo' é para tornar o atributo privado (visibilidade private)
 		self.__tipo_combustivel = tipo_combustivel
 		self.__potencia = potencia
-		self.__qtd_combustivel = 0
+		self._qtd_combustivel = 0
 		self.__is_ligado = False
 		self.__velocidade = 0
 		self._libras = 0 # '-.algo' é para tornar o atributo protegido (visibilidade protected)
