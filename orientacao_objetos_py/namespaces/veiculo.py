@@ -15,6 +15,10 @@ class Veiculo():
 	def __del__(self):
 		print("O objeto foi removido da memória.")
 
+	def pintar(self, cor):
+		self.__cor = cor
+		print("O veiculo está com a cor", self.__cor)
+
 	def abastecer(self, qtd_combustivel):
 		"""O método abastecer recebe como parametros a quantidade de combustível e incrementa a nova quantidade de combustível"""
 		print(f"O carro possui {self.__qtd_combustivel} litros de combustível")
