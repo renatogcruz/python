@@ -4,6 +4,8 @@ import carro, moto
 uno_vermelho = carro.Carro('vermelho','Flex', 1.0, 4)
 help(uno_vermelho.abastecer) #essa é não sabia :)
 uno_vermelho.ligar()
+uno_vermelho.acelerar(20)
+print(uno_vermelho.velocidade)
 uno_vermelho.abastecer(70)
 print(f"A quantidade de combustível do carro é: {uno_vermelho.qtd_combustivel}")
 del uno_vermelho
