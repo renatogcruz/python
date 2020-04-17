@@ -1,10 +1,11 @@
 #criando classes
+import abc
 
 class Veiculo():
 	"""Essa é a classe veiculo. Esta classe é utilizada para instanciar novos carros"""
 	def __init__(self, cor, tipo_combustivel, potencia): #método init inicializa a classe
 		#definido os atributos do carro
-		self.__cor = cor # '__.algo' é para tornar o atributo privado (visibilidade private)
+		self._cor = cor # '__.algo' é para tornar o atributo privado (visibilidade private)
 		self.__tipo_combustivel = tipo_combustivel
 		self.__potencia = potencia
 		self._qtd_combustivel = 0
@@ -15,13 +16,14 @@ class Veiculo():
 	def __del__(self):
 		print("O objeto foi removido da memória.")
 
+	@abc.abstractmethod
 	def pintar(self, cor):
-		self.__cor = cor
+		self._cor = cor
 		#print("O veiculo está com a cor", self.__cor)
 
 	@property
 	def cor(self):
-		return self.__cor
+		return self._cor
 
 	def abastecer(self, qtd_combustivel):
 		"""O método abastecer recebe como parametros a quantidade de combustível e incrementa a nova quantidade de combustível"""

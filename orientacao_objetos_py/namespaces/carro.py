@@ -8,3 +8,9 @@ class Carro(veiculo.Veiculo):
 	def abastecer(self, qtd_combustivel):
 		print("O método foi chamado a partir da classe carro (Polimorfismo)")
 		self._qtd_combustivel += qtd_combustivel
+
+	def pintar(self, cor):
+		if cor == "preto":
+			print("O carro não pode ser preto")
+		else:
+			self._cor = cor
