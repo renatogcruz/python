@@ -8,6 +8,7 @@ uno_vermelho.acelerar(20)
 uno_vermelho._libras
 #uno_vermelho.qtd_combustivel(200) # o atributo privado serve para impedir esse tipo de comando (só se enche o tanque abastecendo)
 uno_vermelho.pintar("azul")
+print(uno_vermelho.cor)
 
 del uno_vermelho
 
