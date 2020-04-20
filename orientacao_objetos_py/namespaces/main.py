@@ -11,7 +11,7 @@ uno_vermelho._libras
 uno_vermelho.pintar("azul")
 print(uno_vermelho.cor)
 
-del uno_vermelho
+#del uno_vermelho
 
 moto_vermelha = moto.Moto("vermelha", "gasolina", 1.0, 2)
 moto_vermelha.ligar()
