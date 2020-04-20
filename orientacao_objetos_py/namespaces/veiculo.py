@@ -1,7 +1,7 @@
 #criando classes
 import abc
 
-class Veiculo():
+class Veiculo(abc.ABC): #quando a classe pai é abstrata, todos os métodos abstratos desta classe devem ser obrigatoriamente implementadas nos filhos
 	"""Essa é a classe veiculo. Esta classe é utilizada para instanciar novos carros"""
 	def __init__(self, cor, tipo_combustivel, potencia): #método init inicializa a classe
 		#definido os atributos do carro

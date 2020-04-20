@@ -1,6 +1,7 @@
 #herança multipla não vai ser utilizada
 import carro, moto
 
+#uno_vermelho = veiculo.Veiculo('vermelho','Flex', 1.0) #não consegue mais chamar assim pq a classe (pai) veiculo agora é abstrata
 uno_vermelho = carro.Carro('vermelho','Flex', 1.0, 4)
 help(uno_vermelho.abastecer) #essa é não sabia :)
 uno_vermelho.ligar()
