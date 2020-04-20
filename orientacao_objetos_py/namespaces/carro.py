@@ -14,3 +14,5 @@ class Carro(veiculo.Veiculo):
 			print("O carro não pode ser preto")
 		else:
 			self._cor = cor
+
+#sobrescrita de métodos abstratos em classes-filha (o método abstrato sobrescrito se sobre sai ao métod da classe-pai)
