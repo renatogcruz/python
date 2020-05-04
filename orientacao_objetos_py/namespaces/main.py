@@ -1,5 +1,5 @@
 #herança multipla não vai ser utilizada
-import carro, moto
+import carro, moto,veiculo
 
 #uno_vermelho = veiculo.Veiculo('vermelho','Flex', 1.0) #não consegue mais chamar assim pq a classe (pai) veiculo agora é abstrata
 uno_vermelho = carro.Carro('vermelho','Flex', 1.0, 4)
@@ -15,3 +15,8 @@ print(uno_vermelho.cor)
 
 moto_vermelha = moto.Moto("vermelha", "gasolina", 1.0, 2)
 moto_vermelha.ligar()
+
+if isinstance(moto_vermelha, veiculo.Veiculo):
+	print("A classe é um veiculo")
+else:
+	print("A classe não é um veículo")
