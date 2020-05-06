@@ -1,6 +1,7 @@
 class Relogio:
 
-	def __init__(self, hora=0, min=0, seg=0):
+	def __init__(self, hora=0, min=0, seg=0, *args, **kwargs): #*args, **kwargs quando não sabemos quantos argumentos vamos chamar, lembrando que será usado em herança multiplas
+		super(Relogio, self).__init__(*args, **kwargs)
 		self.hora = hora
 		self.min = min
 		self.seg = seg
@@ -13,7 +14,7 @@ class Relogio:
 	def __str__(self):
 		return "{0:02d}:{1:02d}:{2:02d}".format(self.hora,
 												self.min, 
-												self.seg)
+												self.seg) + super(Relogio, self).__str__()
 
 	def tick(self):
 		if self.seg == 59:
@@ -38,7 +39,8 @@ class Calendario:
 
 	meses = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
 
-	def __init__(self, dia, mes, ano):
+	def __init__(self, dia, mes, ano, *args, **kwargs):
+		super(Calendario, self).__init__(*args, **kwargs)
 		self.dia = dia
 		self.mes = mes
 		self.ano = ano
@@ -51,7 +53,7 @@ class Calendario:
 	def __str__(self):
 		return "{0:02d}/{1:02d}/{2:04d}".format(self.dia, 
 												self.mes,
-												self.ano)
+												self.ano) 
 
 	def avancar(self):
 		dia_max = Calendario.meses[self.mes - 1]
@@ -74,11 +76,10 @@ print(cal)"""
 class CalendarioRelogio(Relogio, Calendario):
 	
 	def __init__(self, hora, min, seg, dia, mes, ano):
-		Relogio.__init__(self, hora, min, seg)
-		Calendario.__init__(self, dia, mes, ano)
-
+		super(CalendarioRelogio, self).__init__(hora=hora, min=min, seg=seg, dia=dia, mes=mes, ano=ano)
+		
 	def __str__(self):
-		return Relogio.__str__(self) + ', ' + Calendario.__str__(self)
+		return super(CalendarioRelogio, self).__str__()
 
 	def tick(self):
 		hora_anterior = self.hora
