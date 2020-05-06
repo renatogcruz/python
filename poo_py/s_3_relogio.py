@@ -19,8 +19,9 @@ class Relogio:
 		if self.seg == 59:
 			self.seg = 0
 			if self.min == 59:
+				self.min =0
 				if self.hora == 23:
-					self.hora = 9
+					self.hora = 0
 				else:
 					self.hora += 1
 			else:
@@ -79,7 +80,15 @@ class CalendarioRelogio(Relogio, Calendario):
 	def __str__(self):
 		return Relogio.__str__(self) + ', ' + Calendario.__str__(self)
 
+	def tick(self):
+		hora_anterior = self.hora
+		Relogio.tick(self)
+		if(self.hora < hora_anterior):
+			self.avancar()
 
-cal_rel = CalendarioRelogio(30,1,10,1,2,2010)
+
+cal_rel = CalendarioRelogio(23,59,59,31,12,2015)
+print(cal_rel)
+cal_rel.tick()
 print(cal_rel)
 
