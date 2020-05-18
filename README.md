@@ -1,0 +1,17 @@
+# python
+Estudando python
+
+
+Plano de estudo Python
+
+[Curso Intensivo de Python: Uma Introdução Prática e Baseada em Projetos à Programação](https://www.amazon.com.br/Curso-Intensivo-Python-Introdu%C3%A7%C3%A3o-Programa%C3%A7%C3%A3o/dp/8575225030/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1500R1VELZ4HF&keywords=curso+intensivo+de+python&qid=1589806533&sprefix=curso+intensivo%2Caps%2C879&sr=8-1)
+
+[[+]](https://github.com/renatogcruz/python/tree/master/curso_intesivo_python)
+
+[Python: Programação Orientada a Objetos com Python 3](https://www.udemy.com/course/programacao-orientada-a-objetos-com-python/) 125 aulas
+17:30:42
+
+[[+]](https://github.com/renatogcruz/python/tree/master/poo_py)
+
+
+[Python Fluente: Programação Clara, Concisa e Eficaz](https://www.amazon.com.br/Python-Fluente-Programa%C3%A7%C3%A3o-Concisa-Eficaz/dp/857522462X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1QUT2H5M7FSKR&keywords=python+fluente&qid=1589806682&sprefix=python+flue%2Caps%2C338&sr=8-1)
