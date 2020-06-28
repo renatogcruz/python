@@ -15,3 +15,13 @@ Plano de estudo Python
 
 
 [Python Fluente: Programação Clara, Concisa e Eficaz](https://www.amazon.com.br/Python-Fluente-Programa%C3%A7%C3%A3o-Concisa-Eficaz/dp/857522462X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1QUT2H5M7FSKR&keywords=python+fluente&qid=1589806682&sprefix=python+flue%2Caps%2C338&sr=8-1)
+
+## RhinoPython¹º¹ Primer
+
+(RhinoPython¹º¹ Primer)[https://www.rhino3d.com/download/IronPython/5.0/RhinoPython101]
+
+## Support
+
+(Rhino.Python)[https://developer.rhino3d.com/guides/#rhinopython]
+
+(Rhino.Python Guides)[https://developer.rhino3d.com/guides/rhinopython/]
