@@ -15,7 +15,5 @@ def pesquisa_binaria(lista, item):
 
 minha_lista = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
 
-print(pesquisa_binaria(minha_lista, 21))
+print(pesquisa_binaria(minha_lista, 29))
 
-print(15/2)
-print(15//2)
