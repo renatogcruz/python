@@ -27,3 +27,8 @@ Plano de estudo Python
 [Rhino.Python](https://developer.rhino3d.com/guides/#rhinopython)
 
 [Rhino.Python Guides](https://developer.rhino3d.com/guides/rhinopython/)
+
+
+## Algoritmos
+
+[Todos os algoritmos implementados em Python](https://github.com/TheAlgorithms/Python)
