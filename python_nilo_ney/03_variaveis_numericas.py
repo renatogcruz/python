@@ -14,3 +14,16 @@ print(True or False and not True) #avalia-se 'not', 'and' e depois 'or'
 print(True or False and False)    #avalia-se 'and' e depois 'or'
 
 print(100 > 1_000 and 20 > 18)    #operadores relacionais devem ser avaliados primeiro e depois as expressões lógicas
+
+#exercício 3.4
+salario = 1_200.00
+ir = 1_200.00
+print(salario >= ir)
+
+#exercício 3.6
+materia1 = 4.5
+materia2 = 6.0
+materia3 = 7.2
+media = 7.0
+
+print(materia1 >= media and materia2 >= media and materia3 >= media)
