@@ -27,3 +27,29 @@ materia3 = 7.2
 media = 7.0
 
 print(materia1 >= media and materia2 >= media and materia3 >= media)
+
+print(len("A"))
+print(len("AB"))
+print(len(""))
+print(len("O rato roeu a roupa"))
+
+a = "ABCDEF"
+print(a[0])
+print(a[2])
+
+#concatenação de string
+print(a + "C" * 4)
+#composição de string
+b = 10
+print("joão tem %d anos" % b)
+print("%03d" % b)
+print("%5f" % 5)
+print("%5.2f" % 5)
+
+nome = "joão"
+idade = 22
+grana = 51.34
+print("%s tem %d e R$%5.2f no bolso" % (nome, idade, grana))
+print("{} tem {} e R${} no bolso" .format(nome, idade, grana)) #forma mais moderna de compor strings
+print(f"{nome} tem {idade} e R${grana} no bolso")              #outra maneira moderna de compor strings
+
