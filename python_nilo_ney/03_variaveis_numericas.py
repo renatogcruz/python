@@ -53,3 +53,10 @@ print("%s tem %d e R$%5.2f no bolso" % (nome, idade, grana))
 print("{} tem {} e R${} no bolso" .format(nome, idade, grana)) #forma mais moderna de compor strings
 print(f"{nome} tem {idade} e R${grana} no bolso")              #outra maneira moderna de compor strings
 
+#fatiamento
+print(a[0:2]) #o final da fatia não é incluido no output
+print(a[:2]) 
+print(a[1:2])
+print(a[2:]) #posição indice 2 até o final
+print(a[-1:]) #-1 é o úlimo elemento da lista
+
