@@ -60,3 +60,6 @@ print(a[1:2])
 print(a[2:]) #posição indice 2 até o final
 print(a[-1:]) #-1 é o úlimo elemento da lista
 
+#dados de entrada
+x = input("Digite um número: ")
+print(x)
