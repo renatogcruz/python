@@ -27,7 +27,7 @@ while x <= fim:
 		print(x)
 	x += 1
 
-while x <= fim:
-	print(x)
-	x += 2
-
+y = 0
+while y <= 30:
+	print(y)
+	y += 3
