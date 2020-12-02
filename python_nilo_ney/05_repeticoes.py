@@ -38,3 +38,15 @@ x = 1
 while x <= 10:
 	print(f"{n} x {x} = {n * x}")
 	x += 1
+
+#acumuladores
+import random
+
+x = 1    #x é um contador porque seu valor adicionado é constante
+soma = 0 #soma é um acumulador pois o valor adicionado é variável
+while x <= 5:
+	n = random.randint(1, 10)
+	soma += n
+	x += 1
+	print(soma)
+
