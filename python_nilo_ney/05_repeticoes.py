@@ -50,3 +50,13 @@ while x <= 5:
 	x += 1
 	print(soma)
 
+print("tabuadas")
+tabuada_ = 1
+while tabuada_ <= 10:
+	numero = 1                 #é a inicialização da variavel número pq precisamos voltar a multiplicar por 1
+	print(f"\nTabuada do {tabuada_}")
+	while numero <= 10:
+		print(f"{tabuada_} x {numero} = {tabuada_ * numero}")
+		numero += 1
+	tabuada_ += 1
+		
