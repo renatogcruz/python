@@ -60,3 +60,13 @@ while tabuada_ <= 10:
 		numero += 1
 	tabuada_ += 1
 		
+
+#f string é muito legal
+preco = 5.20
+print(f"\nPreço: {preco:5.2f}") #pula linhas entre os dois pontos e valores a ser impresso
+print(f"\nPreço: {preco:15.2f}")
+print(f"\nPreço: {preco:.2f}")
+
+print(f"\nPreço R$:{preco:.^10.2f}")
+print(f"\nPreço R$:{preco:*^10.2f}")
+print(f"\nPreço R$:{preco:.^10.2f}")
