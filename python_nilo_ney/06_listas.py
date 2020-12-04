@@ -66,6 +66,23 @@ print(M)
 M += ["e"]
 print(M)
 
+M.append(["f", "g"])
+print(M)
+
+M.extend(["h", "i", "j"])
+print(M)
+
+#remoção de elementos da lista
+print("")
+N = [1, 2, 3, 4]
+print(N)
+del N[1]
+print(N)
+
+#6.6 Usando listas como filas - pág. 106
+##### ATENÇÃO NESTE ITEM #####
+
+
 
 
 
