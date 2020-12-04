@@ -16,3 +16,9 @@ while x < 5:
 	x += 1
 
 print(f"\nMédia: {soma / x:5.2f}")
+
+
+#trabalhando com índice
+print(notas[2])
+print(notas[0])
+
