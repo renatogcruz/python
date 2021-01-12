@@ -1,4 +1,5 @@
 #implementando o algoritmo dijkstra
+###
 
 grafo = {}                 # criando uma tabela hash
 
