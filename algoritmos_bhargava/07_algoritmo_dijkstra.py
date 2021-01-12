@@ -63,12 +63,13 @@ while nodo is not None:                      # Caso todos os vértices tenham si
 	vizinhos = grafo[nodo]
 	for n in vizinhos.keys():                # Percorre todos os vizinhos desse vértices
 		novo_custo = custo + vizinhos[n]
-		if custos[n] > novo_custo:            # Caso seja mais barato chegar a um vizinho a partir desse vértice ...
+		if custos[n] > novo_custo:           # Caso seja mais barato chegar a um vizinho a partir desse vértice ...
 			custos[n] = novo_custo           # ... atualiza o custo dele
 			pais[n] = nodo                   # Esse vértice se torna o novo pai para o vizinho
 	processados.append(nodo)                 # Marca o vértice como processado
-	nodo = ache_no_custo_mais_baixo(custos)   # Encontra o próximo vértice a ser processado e o algoritmo é repetido
+	nodo = ache_no_custo_mais_baixo(custos)  # Encontra o próximo vértice a ser processado e o algoritmo é repetido
 
-
+print("Custo desde o início até cada nó:")
+print(custos)
 
 
