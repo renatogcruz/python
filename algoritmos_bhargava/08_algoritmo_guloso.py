@@ -20,14 +20,19 @@ estacoes_final = set()
 
 # Agora precisamos calcular as estacções que utilizará. Devemos escolher uma que cubra o maior número de estados
 # não cobertos. 
+while estados_abranger:
+	melhor_estacao = None
+	estados_cobertos = set()                                    #conjunto de todos os estados que essa estação abrange que ainda não foram cobertos
+	for estacao, estados_por_estacoes in estacoes.items():      #permite percorrer todas as estações para ver qual é a melhor estação
+		cobertos = estados_abranger & estados_por_estacoes      #isso é chamado de intersecção (conjunto permite fazer intersecção, união ou diferença)
+		if len(cobertos) > len(estados_cobertos):
+			melhor_estacao = estacao
+			estados_cobertos = cobertos
+	
+	estados_abranger -= estados_cobertos	
+	estacoes_final.add(melhor_estacao)
 
-melhor_estacao = None
-estados_cobertos = set()                                #conjunto de todos os estados que essa estação abrange que ainda não foram cobertos
-for estacao, estados_cobertos in estacoes.items():      #permite percorrer todas as estações para ver qual é a melhor estação
-	cobertos = estados_abranger & estados_por_estacao   #isso é chamado de intersecção
-	if len(cobertos) > len(estados_cobertos):
-		melhor_estacao = estacao
-		estados_cobertos = cobertos
+print(estacoes_final)
 
 
 
