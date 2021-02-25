@@ -27,4 +27,33 @@ if velocidade > 80:
     multa = (velocidade - 80) * 5.0
     print(f"Você esta acima da velocidade. Multa de R$ {multa}")
     
+# 4.3 cálculo do imposto de renda
+
+salario = float(input("Digite seu salário: "))
+base = salario
+imposto = 0
+
+if base > 3000:
+    imposto = imposto + ((base - 3000) * 0.35)
+    base = 3000
+if base > 1000:
+    imposto = imposto + ((base - 1000) * 0.20)
+
+print(f"Salário: R$ {salario:6.2f}")
+print(f"Imposto a pagar: R$ {imposto:6.2f}")
+
+# 4.3 lê 3 valores e imprimir o maior e o menor
+
+a = int(input("Entre com primeiro valor: "))
+b = int(input("Entre com segundo valor: "))
+c = int(input("Entre com terceiro valor: "))
+
+
+
+
+
+
+
+
+
 
