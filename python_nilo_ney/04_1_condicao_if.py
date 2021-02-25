@@ -48,10 +48,33 @@ a = int(input("Entre com primeiro valor: "))
 b = int(input("Entre com segundo valor: "))
 c = int(input("Entre com terceiro valor: "))
 
+maior = a
 
+if maior < b:
+    maior = b
+if maior < c:
+    maior = c
+print(f"O maior número é o {maior}")
 
+menor = a 
 
+if menor > b:
+    menor = b
+if menor > c:
+    menor = c
+print(f"O menor número é o {menor}")
 
+# 4.4 salário aumento
+salario = float(input("Entre com valor do seu salário: "))
+
+base = 1250.00
+
+if salario > base:
+    novo_salario = salario + (salario * 10 / 100)
+    print(f"Novo salário é de {novo_salario}")
+if salario <= base:
+    novo_salario = salario + (salario * 15 / 100)
+    print(f"Novo salário é de {novo_salario}")
 
 
 
