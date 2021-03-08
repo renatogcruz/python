@@ -22,6 +22,8 @@ Link do [curso](https://www.udemy.com/course/programacao-orientada-a-objetos-com
 
 Link do [curso](https://www.udemy.com/course/inteligencia-artificial-explicavel/)
 
+5 - [Guia Python da IAexpert](https://github.com/renatogcruz/python/tree/master/python_guia_IAexpert)
+
 ## RhinoPython¹º¹ Primer
 
 [RhinoPython¹º¹ Primer](https://www.rhino3d.com/download/IronPython/5.0/RhinoPython101)
