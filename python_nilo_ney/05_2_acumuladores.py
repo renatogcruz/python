@@ -35,19 +35,19 @@ print(f"Média: {soma / 5:5.2f}")
 print("\nPrograma Poupança")
 
 deposito = float(input("Entre com valor depositado: "))
-taxaJuros = float(input("Entre com valor da taxa de jutos: "))
-print(f"Valor depositado: R$ {deposito:5.2f} e taxa de jutos {taxaJuros} %")
+taxa = float(input("Entre com valor da taxa de jutos: "))
 
-valor = deposito
-taxa = taxaJuros
-ganhoTotal = 0
-meses = 24
+print(f"Valor depositado: R$ {deposito:5.2f} e taxa de jutos {taxa} %")
+
+
+ganhoTotal = deposito
+
 cont = 1
 
-while cont <= meses:
-    ganho = valor + (valor * taxa / 100)
-    print(f"O ganho do mês {cont} foi de R$ {ganho:5.2f}")
+while cont <= 24:
+    ganho = deposito * taxa / 100
     ganhoTotal += ganho
+    print(f"O ganho do mês {cont} foi de R$ {ganhoTotal:5.2f}")
     cont += 1
 
 print(f"O ganho total em 24 foi de R$ {ganhoTotal:5.2f}")
