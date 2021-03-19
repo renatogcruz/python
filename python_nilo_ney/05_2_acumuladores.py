@@ -87,6 +87,28 @@ while cont <= 24:
     
     # contador
     cont += 1
+    
+############################
+# 5.13 pagamento de dívida #
+############################
+
+print("############################")
+print("# 5.13 pagamento de dívida #")
+print("############################")
+
+divida = float(input("Qual o valor da dívida: "))
+juros = float(input("Qual a taxa de juros mensal: "))
+parcela = float(input("Qual o valor da parcela: "))
+
+
+dividaAtual = divida
+totalPago = 0
+jurosAcumulado = 0
+
+#
+
+
+
 
 
 
