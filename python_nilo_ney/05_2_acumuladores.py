@@ -30,7 +30,9 @@ print(f"Média: {soma / 5:5.2f}")
 
 # Exercícios
 
-# 5.11 programa poupança
+##########################
+# 5.11 programa poupança #
+##########################
 
 print("\nPrograma Poupança")
 
@@ -51,4 +53,40 @@ while cont <= 24:
     cont += 1
 
 print(f"O ganho total em 24 foi de R$ {ganhoTotal:5.2f}")
+
+#########################
+# 5.12 programa poupança#
+#########################
+
+
+print("\n5.12 - Programa Poupança")
+
+deposito = float(input("Faça um depósito inicial: "))
+taxa = float(input("Entre com a taxa de juros: "))
+
+saldo = deposito
+
+cont = 1
+
+while cont <= 24:
+    # mostra saldo no mês atual
+    print(f"\nSeu saldo no mês {cont} é de R$ {saldo:5.2f}")
+    
+    # faz deposito no mês atual
+    deposito = float(input("Entre com novo depósito: "))  
+    
+    # Mostra valor de deposito no mês atual
+    print(f"Valor depositado no mês {cont} foi de R$ {deposito:5.2f}")
+    
+    # calculo de taxa de juros
+    rendimento = saldo * taxa / 100
+    saldo += rendimento
+    
+    # atualiza saldo no mês atual
+    saldo += deposito
+    
+    # contador
+    cont += 1
+
+
 
