@@ -8,7 +8,7 @@ o valor adicionado é constante e, nos acumuladores, variável
 n = 1
 soma = 0
 
-while n <= 10:
+while n <= 4:
     x = int(input(f"Digite o {n} número: "))
     soma = soma + x                          # é um acumulador
     n = n + 1                                # é um contador
@@ -22,7 +22,7 @@ print("\nPrograma para calcular 5 variáveis")
 x = 1
 soma = 0
 
-while x <= 5:
+while x <= 4:
     n = int(input(f"{x} Digite o número: "))
     soma = soma + n                          #
     x = x + 1
@@ -46,7 +46,7 @@ ganhoTotal = deposito
 
 cont = 1
 
-while cont <= 24:
+while cont <= 4:
     ganho = deposito * taxa / 100
     ganhoTotal += ganho
     print(f"O ganho do mês {cont} foi de R$ {ganhoTotal:5.2f}")
@@ -68,7 +68,7 @@ saldo = deposito
 
 cont = 1
 
-while cont <= 24:
+while cont <= 4:
     # mostra saldo no mês atual
     print(f"\nSeu saldo no mês {cont} é de R$ {saldo:5.2f}")
     
@@ -108,9 +108,16 @@ jurosAcumulado = 0
 #
 
 while dividaAtual > 0:
-    jurosAcumulado += dividaAtual * (juros / 100)  
-    #dividaAtual += jurosAcumulado
     dividaAtual -= parcela
+    print(f"Pagamento: R$ {parcela:5.2f}")
+    print(f"Divida atual: R$ {dividaAtual:5.2f}")
+    
+    jurosAtual = dividaAtual * (juros / 100)     
+    
+    dividaAtual += jurosAtual
+        
+    jurosAcumulado += jurosAtual
+    
     totalPago += parcela
     
 print(f"Total pago R$ {totalPago:5.2f}")
