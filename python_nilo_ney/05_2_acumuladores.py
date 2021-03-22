@@ -107,7 +107,15 @@ jurosAcumulado = 0
 
 #
 
-
+while dividaAtual > 0:
+    jurosAcumulado += dividaAtual * (juros / 100)  
+    #dividaAtual += jurosAcumulado
+    dividaAtual -= parcela
+    totalPago += parcela
+    
+print(f"Total pago R$ {totalPago:5.2f}")
+print(f"Total juros acumulado R$ {jurosAcumulado:5.2f}")
+    
 
 
 
