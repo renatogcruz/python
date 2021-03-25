@@ -1,8 +1,9 @@
-﻿## Predict cost of civil construction São Paulo/Brazil
+# Programação Orientada a Objetos com Python
 
-Data - https://sindusconsp.com.br/cub/
-From 2007 to 2019
+Fundamentos de OOP com Python 3
 
-Type of construction R16 N
+Este livro está à venda em http://leanpub.com/PythonOOP
+
+© 2016 - 2017 Ashwin Pajankar e Sushant Garg
 
 _____________________________
