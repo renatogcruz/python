@@ -13,4 +13,7 @@ def main():
 	o2 = Class02()
 
 if __name__ == "__main__":
+	print("Module prog01 is being run directly...")
 	main()
+else:
+	print("Module prog01 has been imported in the current module...")
