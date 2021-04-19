@@ -89,6 +89,7 @@ while True:
             atual = 1
         celulas = 0
         
+        
 
 
 
