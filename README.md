@@ -37,4 +37,6 @@ Link do [curso](https://www.udemy.com/course/inteligencia-artificial-explicavel/
 
 ## Algoritmos
 
+[Estudando algoritmos](https://github.com/renatogcruz/python/tree/master/algoritmos_manzano_oliveira)
+
 [Todos os algoritmos implementados em Python](https://github.com/TheAlgorithms/Python)
