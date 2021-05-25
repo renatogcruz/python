@@ -16,23 +16,21 @@ while(cont <= 10):
     cont +=1
    
 
-
-"""
-cont2 = 1
+cont2 = 0
 par = []
 impar = []
 
-while(cont2 <= 10):
+while(cont2 < 9):
     indice = lista[cont2]
     resto = indice %2
     if resto == 0:
-        multiplica = cont * 5
+        multiplica = indice * 5
         par.append(multiplica)        
     else:
-        soma = cont + 5
+        soma = indice + 5
         impar.append(soma)
     cont2 += 1
         
 print(par)
 print(impar)
-"""
+
