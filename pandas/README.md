@@ -1,42 +1,47 @@
-# python
-Estudando python
+# Estudando Pandas
 
+O pandas é uma ferramenta de análise e manipulação de dados de código aberto rápida, poderosa, flexível e fácil de usar, construída sobre a linguagem de programação Python .
 
-Plano de estudo Python
+* Chapter 1: Getting started with pandas 2
+* Chapter 2: Analysis: Bringing it all together and making decisions
+* Chapter 3: Appending to DataFrame
+* Chapter 4: Boolean indexing of dataframes
+* Chapter 5: Categorical data
+* Chapter 6: Computational Tools
+* Chapter 7: Creating DataFrames
+* Chapter 8: Cross sections of different axes with MultiIndex
+* Chapter 9: Data Types
+* Chapter 10: Dealing with categorical variables
+* Chapter 11: Duplicated data
+* Chapter 12: Getting information about DataFrames
+* Chapter 13: Gotchas of pandas
+* Chapter 14: Graphs and Visualizations
+* Chapter 15: Grouping Data
+* Chapter 16: Grouping Time Series Data
+* Chapter 17: Holiday Calendars
+* Chapter 18: Indexing and selecting data
+* Chapter 19: IO for Google BigQuery
+* Chapter 20: JSON
+* can either pass string of the json, or a filepath to a file with valid json
+* Chapter 21: Making Pandas Play Nice With Native Python Datatypes
+* Chapter 22: Map Values
+* Chapter 23: Merge, join, and concatenate
+* Chapter 24: Meta: Documentation Guidelines
+* Chapter 25: Missing Data
+* Chapter 26: MultiIndex
+* Chapter 27: Pandas Datareader
+* Chapter 28: Pandas IO tools (reading and saving data sets)
+* Chapter 29: pd.DataFrame.apply
+* Chapter 30: Read MySQL to DataFrame
+* Chapter 31: Read SQL Server to Dataframe
+* Chapter 32: Reading files into pandas DataFrame
+* Chapter 33: Resampling
+* Chapter 34: Reshaping and pivoting
+* Chapter 35: Save pandas dataframe to a csv file
+* Chapter 36: Series
+* Chapter 37: Shifting and Lagging Data
+* Chapter 38: Simple manipulation of DataFrames
+* Chapter 39: String manipulation
+* Chapter 40: Using .ix, .iloc, .loc, .at and .iat to access a DataFrame
+* Chapter 41: Working with Time Series
 
-1 - [Curso Intensivo de Python: Uma Introdução Prática e Baseada em Projetos à Programação](https://github.com/renatogcruz/python/tree/master/curso_intesivo_python)
-
-Link do [livro](https://www.amazon.com.br/Curso-Intensivo-Python-Introdu%C3%A7%C3%A3o-Programa%C3%A7%C3%A3o/dp/8575225030/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1500R1VELZ4HF&keywords=curso+intensivo+de+python&qid=1589806533&sprefix=curso+intensivo%2Caps%2C879&sr=8-1)
-
-
-2 - [Python: Programação Orientada a Objetos com Python 3](https://github.com/renatogcruz/python/tree/master/poo_py)
-
-Link do [curso](https://www.udemy.com/course/programacao-orientada-a-objetos-com-python/) 125 aulas
-
-
-3 - [Python Fluente: Programação Clara, Concisa e Eficaz](https://www.amazon.com.br/Python-Fluente-Programa%C3%A7%C3%A3o-Concisa-Eficaz/dp/857522462X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1QUT2H5M7FSKR&keywords=python+fluente&qid=1589806682&sprefix=python+flue%2Caps%2C338&sr=8-1)
-
-[Como Pensar Como um Cientista da Computação](https://panda.ime.usp.br/pensepy/static/pensepy/index.html)
-
-4 - [Tnteligência Artificial Explicável (xAI) com Python](https://github.com/renatogcruz/python/tree/master/inteligencia_artifical_explicavel)
-
-Link do [curso](https://www.udemy.com/course/inteligencia-artificial-explicavel/)
-
-5 - [Guia Python da IAexpert](https://github.com/renatogcruz/python/tree/master/python_guia_IAexpert)
-
-## RhinoPython¹º¹ Primer
-
-[RhinoPython¹º¹ Primer](https://www.rhino3d.com/download/IronPython/5.0/RhinoPython101)
-
-## Support
-
-[Rhino.Python](https://developer.rhino3d.com/guides/#rhinopython)
-
-[Rhino.Python Guides](https://developer.rhino3d.com/guides/rhinopython/)
-
-
-## Algoritmos
-
-[Estudando algoritmos](https://github.com/renatogcruz/python/tree/master/algoritmos_manzano_oliveira)
-
-[Todos os algoritmos implementados em Python](https://github.com/TheAlgorithms/Python)
