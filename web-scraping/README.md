@@ -4,10 +4,10 @@ Estudando web scraping
 
 
 ## Beautiful Soup
-
+```
 BEAUTIFUL Soup, so rich and green, 
 Waiting in a hot tureen! 
-Who for such dainties would not stoop? 
+Who for such dainties would not stoop?
 Soup of the evening, beautiful Soup! 
 Soup of the evening, beautiful Soup!
 
@@ -26,7 +26,6 @@ Beau--ootiful Soo-oop!
 Beau--ootiful Soo-oop! 
 Soo--oop of the e--e--evening, 
 Beautiful, beauti--FUL SOUP!
-
+```
  
-
 *Beautiful Soup - a poem by Lewis Carroll*
