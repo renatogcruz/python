@@ -1,4 +1,4 @@
-# Estudando Pandas
+# [Estudando Pandas](https://riptutorial.com/ebook/pandas)
 
 O pandas é uma ferramenta de análise e manipulação de dados de código aberto rápida, poderosa, flexível e fácil de usar, construída sobre a linguagem de programação Python .
 
