@@ -32,7 +32,8 @@ print('I am 6\'2" tall.')  # escape de aspas simples dentro da string
 tabby_cat = "\tI'm tabbet in."
 # \n pula uma linha
 persian_cat = "I'm split\non a line."
-# \\ separa a string com uma \
+# \\ separa a string com uma \. 
+# Para barra comum, basta colocar apenas uma (ela não é um escape e deve funcionar apenas como caracter)
 backslash_cat = "I'm \\ a \\ cat"
 
 # \t* formata como lista
@@ -47,3 +48,5 @@ print(tabby_cat)
 print(persian_cat)
 print(backslash_cat)
 print(fat_cat)
+
+# outros escapes ler quadro na página 36
